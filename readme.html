@@ -1,0 +1,101 @@
+# web-server
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+        <title> </title>
+        <style>
+        h4 {
+        border-top-left-radius: 35px;
+        border-bottom-left-radius: 35px;
+        border-top-right-radius: 35px;
+        border-bottom-right-radius: 35px;
+        background-color: purple;
+        border-style: solid;
+        border-width: 1px;
+        border-color: blue;
+        width: 100%; 
+        }
+    input {
+        width: 10%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+    body {
+        border-top-left-radius: 35px;
+        border-bottom-left-radius: 35px;
+        border-top-right-radius: 35px;
+        border-bottom-right-radius: 35px;
+      width: 40%;
+        background-color:black;
+        color: white;
+        padding:10px;
+        margin: 10px;
+    }
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+    h2 {
+        padding: 30px;
+    }
+    label {
+        font-size: 100%;
+    }
+    .inline-list li {
+     display:inline;
+     margin-right:20px;
+     border-top-left-radius:10px;
+     border-top-right-radius:10px;
+     border-bottom-right-radius:10px;
+     border-bottom-left-radius:10px;
+     background-color:green;
+     color:white;
+     font-size: 150%;
+     padding: 3px;
+    }
+    h2{
+        color: green;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+        </style>
+    </head>
+    <body>
+        <h2>HOME PAGE</h2>
+            <ul class = "inline-list">
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3 </li>
+                 <ul>
+        <form action="SIGNUP-process.php" method="POST">
+            <h2>SIGN UP:</h2>
+        <label for="name"> First Name:</label>
+        <input type="text">
+        <label for="surname">Surname:</label>
+        <input type="text">
+        <label for="username">Username:</label>
+        <input type="text">
+        <label for="password">Password:</label>
+        <input type="password" id="password"name="password" required>
+        <br><br>
+        <button type="submit-btn">submit</button>
+        <br><br>
+        </form>
+        </div>
+        <br>
