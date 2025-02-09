@@ -26,6 +26,7 @@
         border: 1px solid #ccc;
         border-radius: 4px;
         font-size: 16px;
+    width: 100%;
     }
     body {
         border-top-left-radius: 35px;
@@ -51,6 +52,9 @@
 
     button:hover {
         background-color: #45a049;
+    }
+    .login-group {
+        display:block;
     }
     h2 {
         padding: 30px;
@@ -82,20 +86,20 @@
                 <li>item 1</li>
                 <li>item 2</li>
                 <li>item 3 </li>
-                 <ul>
+                 <ul>🇳🇦 
+                    <div class= "login-group">
         <form action="SIGNUP-process.php" method="POST">
             <h2>SIGN UP:</h2>
         <label for="name"> First Name:</label>
-        <input type="text">
+        <input type="text" placeholder="First Name" required>
         <label for="surname">Surname:</label>
-        <input type="text">
+        <input type="text" placeholder="Surname" required>
         <label for="username">Username:</label>
-        <input type="text">
+        <input type="text" placeholder="username" required>
         <label for="password">Password:</label>
         <input type="password" id="password"name="password" required>
+        </div>
         <br><br>
         <button type="submit-btn">submit</button>
         <br><br>
         </form>
-        </div>
-        <br>
